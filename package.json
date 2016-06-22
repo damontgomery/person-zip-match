@@ -1,13 +1,17 @@
 {
   "name": "person-zip-match",
   "description": "match people by zip codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Dan Montgomery",
+  "scripts": {
+    "build": "./node_modules/.bin/browserify person-lookup.js -o zipcodes.js"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/damontgomery/person-zip-match.git"
   },
-  "dev-Dependencies": {
+  "devDependencies": {
+    "browserify": "^13.0.1",
     "zipcodes": "~2.1.0"
   }
 }
