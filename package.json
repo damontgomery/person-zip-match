@@ -1,0 +1,13 @@
+{
+  "name": "person-zip-match",
+  "description": "match people by zip codes",
+  "version": "1.0.0",
+  "author": "Dan Montgomery",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/damontgomery/person-zip-match.git"
+  },
+  "dev-Dependencies": {
+    "zipcodes": "~2.1.0"
+  }
+}
