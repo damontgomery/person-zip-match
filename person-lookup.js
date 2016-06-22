@@ -29,7 +29,7 @@ $( document ).ready(function() {
         // console.log(distance);
 
         if (distance < closest.distance) {
-          closest.matches.push(target);
+          closest.matches = [target];
           closest.distance = distance;
         }
         else if (distance === closest.distance) {
